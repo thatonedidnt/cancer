@@ -1,11 +1,12 @@
 
 public class EasyAsteroid extends Asteroid {
-
-    
+int pointVal=10;
     public EasyAsteroid()
     {
    	 super();
    	 this.generator();
+   	this.doQuestion();
+    
     }
     
     public void generator()
@@ -16,5 +17,7 @@ public class EasyAsteroid extends Asteroid {
    		 numbers[i] = ran;
    	 }
     }
-    
+    public int getPoints(){
+    	return pointVal;
+    }
 }

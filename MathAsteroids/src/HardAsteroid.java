@@ -1,10 +1,12 @@
 public class HardAsteroid extends Asteroid {
+	int pointVal=30;
 
     
     public HardAsteroid()
     {
    	 super();
    	 this.generator();
+   	 this.doQuestion();
     }
 
     public void generator()
@@ -15,5 +17,7 @@ public class HardAsteroid extends Asteroid {
    		 numbers[i] = ran;
    	 }
     }
-    
+    public int getPoints(){
+    	return pointVal;
+    }
 }

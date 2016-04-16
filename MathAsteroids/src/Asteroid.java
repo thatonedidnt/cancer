@@ -63,4 +63,7 @@ public class Asteroid {
 		return "" + numbers[0] + " " + this.stringOperation()
 				+ " " + numbers[1];
 	}
+	public int getPoints(){
+		return 0;
+	}
 }
