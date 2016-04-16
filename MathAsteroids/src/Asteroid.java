@@ -11,7 +11,7 @@ public class Asteroid {
 	protected final int HARD_DIGITS = 999;
 
 	public int answer;
-	public int pointVal;
+	public int pointVal;//lol
 
 		
 	public int[] numbers = new int[MAX_NUM];
